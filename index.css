@@ -1,0 +1,1019 @@
+html {
+    margin: 0;
+    padding: 0%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#backsec {
+    background-image: url("back.png");
+    background-size: cover;
+}
+
+#overlaysec {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    z-index: 1;
+}
+
+#first {
+    color: white;
+    font-size: 7rem;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: default;
+}
+
+#last {
+    color: rgb(252, 27, 38);
+    font-size: 7rem;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: default;
+}
+
+#list_a {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#list_a a {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    padding: 0 2rem;
+}
+
+.cc::after {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 2rem;
+    height: 0.35rem;
+    transition: width .3s ease-in-out;
+}
+
+.cc:hover::after {
+    width: 100%;
+    transition: width .3s ease-in-out;
+}
+
+.homeimg {
+    height: 80%;
+    position: absolute;
+    top: 23.3%;
+    left: 65%;
+}
+
+.title {
+    font-size: 10rem;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+#tce {
+    color: rgb(252, 27, 38);
+}
+
+#tagline {
+    font-size: 4rem;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+    text-align: center;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+}
+
+#burger {
+    cursor: pointer;
+    color: #fff;
+    font-size: 5rem;
+    display: none;
+}
+
+#menulinks {
+    display: none;
+}
+
+.aboutheader {
+    font-size: 5rem;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    cursor: default;
+    top: 107%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.aboutheader::after {
+    content: "";
+    display: block;
+    background-color: rgb(252, 27, 38);
+    height: 1rem;
+    width: 60%;
+}
+
+#img {
+    height: 50rem;
+    position: absolute;
+    top: 157.5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.abouttext {
+    width: 50%;
+    cursor: default;
+    position: absolute;
+    color: black;
+    top: 160%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-family: "Mukta", sans-serif;
+    font-size: 4rem;
+    text-align: justify;
+}
+
+#skills {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.skillsheader {
+    font-size: 5rem;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    cursor: default;
+    top: 210%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+}
+
+.skillsheader::after {
+    content: "";
+    display: block;
+    background-color: rgb(252, 27, 38);
+    height: 1rem;
+    width: 70%;
+}
+
+#skillscontent {
+    width: 45%;
+    cursor: default;
+    position: absolute;
+    color: black;
+    top: 255%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: "Mukta", sans-serif;
+    font-size: 3.5rem;
+    text-align: justify;
+}
+
+#os {
+    position: absolute;
+    top: 236.75%;
+    left: 75%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#ts {
+    position: absolute;
+    top: 248.75%;
+    left: 75%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#tts {
+    position: absolute;
+    top: 260.75%;
+    left: 75%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#fs {
+    position: absolute;
+    top: 272.75%;
+    left: 75%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.line {
+    background-color: gray;
+    width: 100%;
+    height: 2vh;
+}
+
+#prtiko {
+    background-color: rgb(252, 27, 38);
+    width: 95%;
+    height: 2vh;
+}
+
+#prtikt {
+    background-color: rgb(252, 27, 38);
+    width: 80%;
+    height: 2vh;
+}
+
+#prtiktt {
+    background-color: rgb(252, 27, 38);
+    width: 60%;
+    height: 2vh;
+}
+
+#prtikf {
+    background-color: rgb(252, 27, 38);
+    width: 70%;
+    height: 2vh;
+}
+
+.stext {
+    font-size: 2rem;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+}
+
+#services {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.servicesheader {
+    font-size: 5rem;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    cursor: default;
+    top: 310%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+}
+
+.servicesheader::after {
+    content: "";
+    display: block;
+    background-color: rgb(252, 27, 38);
+    height: 1rem;
+    width: 60%;
+}
+
+#oserv {
+    font-size: 8rem;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border: 10px solid crimson;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tserv {
+    font-size: 8rem;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border: 10px solid crimson;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 350%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#ttserv {
+    font-size: 8rem;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border: 10px solid crimson;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 350%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.holdertext {
+    font-size: 3.1rem;
+    color: rgb(0, 0, 0);
+    font-family: "Ubuntu", sans-serif;
+    cursor: default;
+    position: absolute;
+    top: 370%;
+    transform: translate(-50%, -50%);
+}
+
+#oht {
+    left: 50%;
+}
+
+#tht {
+    left: 20%;
+}
+
+#ttht {
+    left: 80%;
+    width: max-content;
+}
+
+#contact {
+    height: 100vh;
+}
+
+.contactheader {
+    font-size: 5rem;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    cursor: default;
+    top: 407%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.contactheader::after {
+    content: "";
+    display: block;
+    background-color: rgb(252, 27, 38);
+    height: 1rem;
+    width: 60%;
+}
+
+.contacttext {
+    width: 50%;
+    cursor: default;
+    position: absolute;
+    color: black;
+    top: 443%;
+    left: 25%;
+    width: 43%;
+    transform: translate(-50%, -50%);
+    font-family: "Mukta", sans-serif;
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+#nameinp {
+    position: absolute;
+    top: 437%;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2rem;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    border: 1px solid black;
+}
+
+#subinp {
+    position: absolute;
+    top: 437%;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2rem;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    border: 1px solid black;
+}
+
+#messinp {
+    resize: none;
+    position: absolute;
+    top: 461%;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2rem;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    border: 1px solid black;
+}
+
+#btn {
+    background-color: rgb(252, 27, 38);
+    color: white;
+    border: none;
+    border-radius: 10%;
+    position: absolute;
+    top: 484%;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2rem;
+    left: 54.9%;
+    transform: translate(-50%, -50%);
+    padding: 1.5%;
+    cursor: pointer;
+    transition: .2s color ease-in-out;
+}
+
+#btn2 {
+    background-color: rgb(252, 27, 38);
+    color: white;
+    border: none;
+    border-radius: 10%;
+    position: absolute;
+    top: 484%;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2rem;
+    left: 95.6%;
+    transform: translate(-50%, -50%);
+    padding: 1.5%;
+    cursor: pointer;
+    transition: .2s color ease-in-out;
+}
+
+#btn:hover {
+    color: rgb(255, 153, 153);
+    transition: .2s color ease-in-out;
+}
+
+#btn2:hover {
+    color: rgb(255, 153, 153);
+    transition: .2s color ease-in-out;
+}
+
+#email {
+    font-size: 5rem;
+    color: rgb(252, 27, 38);
+    position: absolute;
+    top: 465%;
+    left: 3.5%;
+}
+
+#location {
+    font-size: 5rem;
+    color: rgb(252, 27, 38);
+    position: absolute;
+    top: 480%;
+    left: 3.5%;
+}
+
+#iconlocationtext {
+    font-size: 2.2rem;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top: 481.5%;
+    left: 7.5%;
+    text-align: center;
+    cursor: default;
+}
+
+#iconemailtext {
+    font-size: 2.2rem;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top: 466.5%;
+    left: 7.5%;
+    text-align: center;
+    cursor: default;
+}
+
+footer {
+    height: 8vh;
+    background-color: rgb(26, 26, 26);
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 2rem;
+    word-spacing: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copynm {
+    color: rgb(252, 27, 38);
+}
+
+@media (max-width: 1138px) {
+    #burger {
+        display: initial;
+    }
+    #burger:hover {
+        color: gray;
+        transition: .3s color ease-in-out;
+    }
+    #secondicon {
+        color: white;
+        font-size: 5rem;
+        cursor: pointer;
+        position: absolute;
+        left: 83.5%;
+        top: 3%;
+    }
+    #secondicon:hover {
+        color: gray;
+        transition: .3s color ease-in-out;
+    }
+    #menu {
+        background-color: black;
+        background-color: rgba(0, 0, 0, 0.95);
+        height: 100vh;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        transition: 0.5s;
+        z-index: 1;
+    }
+    #list_a a {
+        display: none;
+    }
+    #nav {
+        padding: 2rem;
+    }
+    #menulinks {
+        display: none;
+        align-items: center;
+        line-height: 17rem;
+        text-align: center;
+    }
+    #menualllinks {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Oswald", sans-serif;
+    }
+    .ccmenu {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 5rem;
+        display: flow-root;
+    }
+    .ccmenu:hover {
+        color: gray;
+        transition: .3s color ease-in-out;
+    }
+    #list_a {
+        width: 0%;
+    }
+    .title {
+        font-size: 8rem;
+        top: 55%;
+    }
+    #tagline {
+        font-size: 3.3rem;
+        top: 70%;
+    }
+    .homeimg {
+        height: 70%;
+        top: 33%;
+    }
+    #img {
+        height: 50%;
+    }
+    .abouttext {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 950px) {
+    #backsec {
+        background-image: url("back2.png");
+    }
+    nav {
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 2px black;
+    }
+    .homeimg {
+        display: none;
+    }
+    .title {
+        left: 50%;
+        top: 50%;
+        font-size: 9rem;
+    }
+    #tagline {
+        left: 50%;
+        top: 65%;
+        width: max-content;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 7rem;
+    }
+    #tagline {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 420px) {
+    #tagline {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 885px) {
+    #burger {
+        font-size: 3.5rem;
+    }
+    #first {
+        font-size: 6rem;
+    }
+    #last {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 485px) {
+    #burger {
+        font-size: 2.5rem;
+    }
+    #first {
+        font-size: 4.5rem;
+    }
+    #last {
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 760px) {
+    #img {
+        height: 40%;
+    }
+    .abouttext {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 635px) {
+    #img {
+        top: 135%;
+        left: 50%;
+    }
+    .abouttext {
+        left: 50%;
+        top: 175%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 530px) {
+    #img {
+        height: 35%;
+        top: 132.5%;
+    }
+    .abouttext {
+        left: 50%;
+        top: 175%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 445px) {
+    .abouttext {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .abouttext {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    #header {
+        font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 374px) {
+    #header {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 334px) {
+    #header {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1450px) {
+    #messinp {
+        width: 40%;
+    }
+    #subinp {
+        width: 14%;
+    }
+    #nameinp {
+        width: 14%;
+    }
+    #btn {
+        left: 57%;
+    }
+    #btn2 {
+        left: 93.5%;
+    }
+}
+
+@media (max-width: 1330px) {
+    #iconlocationtext {
+        font-size: 1.8rem;
+    }
+    #iconemailtext {
+        font-size: 1.8rem;
+    }
+    .contacttext {
+        font-size: 2rem;
+    }
+    #location {
+        font-size: 4rem;
+    }
+    #email {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1202px) {
+    #btn {
+        left: 58%;
+        font-size: 1.7rem;
+    }
+    #btn2 {
+        left: 92.5%;
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 994px) {
+    #iconlocationtext {
+        font-size: 1.5rem;
+        top: 481%;
+    }
+    #iconemailtext {
+        font-size: 1.5rem;
+        top: 466%;
+    }
+    .contacttext {
+        font-size: 1.8rem;
+    }
+    #location {
+        font-size: 3rem;
+    }
+    #email {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .contentcontact {
+        display: none;
+    }
+    #messinp {
+        left: 50%;
+        width: 70%;
+    }
+    #nameinp {
+        left: 30%;
+        width: 30%;
+    }
+    #subinp {
+        left: 70%;
+        width: 30%;
+    }
+    #btn {
+        left: 21%;
+        font-size: 2.5rem;
+    }
+    #btn2 {
+        left: 81%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 570px) {
+    #messinp {
+        font-size: 1.75rem;
+    }
+    #nameinp {
+        font-size: 1.75rem;
+    }
+    #subinp {
+        font-size: 1.75rem;
+    }
+    #btn {
+        left: 21%;
+        font-size: 2rem;
+    }
+    #btn2 {
+        left: 81%;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 458px) {
+    #messinp {
+        font-size: 1.5rem;
+    }
+    #nameinp {
+        font-size: 1.5rem;
+    }
+    #subinp {
+        font-size: 1.5rem;
+    }
+    #btn {
+        left: 21%;
+        font-size: 1.75rem;
+        padding: 1rem;
+    }
+    #btn2 {
+        left: 81%;
+        font-size: 1.75rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #btn {
+        font-size: 1.5rem;
+    }
+    #btn2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1365px) {
+    .holdertext {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1104px) {
+    .holdertext {
+        font-size: 2.2rem;
+    }
+    #services i {
+        height: 8rem;
+        width: 8rem;
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 770px) {
+    #services i {
+        height: 6rem;
+        width: 6rem;
+        font-size: 5rem;
+        border-width: 4px;
+    }
+}
+
+@media (max-width: 646px) {
+    .holdertext {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #oht {
+        left: 50%;
+        top: 340%;
+    }
+    #tht {
+        left: 50%;
+        top: 365%;
+    }
+    #ttht {
+        left: 50%;
+        top: 390%;
+    }
+    #services i {
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 3.5rem;
+    }
+    #oserv {
+        top: 329%;
+        left: 50%;
+    }
+    #tserv {
+        top: 354%;
+        left: 50%;
+    }
+    #ttserv {
+        top: 379%;
+        left: 50%;
+    }
+}
+
+@media (max-width: 1360px) {
+    #skillscontent {
+        font-size: 2.9rem;
+    }
+}
+
+@media (max-width: 1010px) {
+    #skillscontent {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 968px) {
+    #skillscontent {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 770px) {
+    #skillscontent {
+        display: none;
+    }
+    #os {
+        left: 50%;
+        width: 80%;
+    }
+    #ts {
+        left: 50%;
+        width: 80%;
+    }
+    #tts {
+        left: 50%;
+        width: 80%;
+    }
+    #fs {
+        left: 50%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 334px) {
+    .stext {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .ccmenu {
+        font-size: 3.5rem;
+    }
+    #secondicon {
+        font-size: 3.5rem;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    footer {
+        font-size: 1.5rem;
+    }
+}
