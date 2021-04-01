@@ -128,7 +128,7 @@ nav {
     font-family: "Ubuntu", sans-serif;
     position: absolute;
     cursor: default;
-    top: 120%;
+    display: none;
     left: 50%;
     color: black;
     transform: translate(-50%, -50%);
