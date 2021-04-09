@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
@@ -7,142 +8,128 @@ body {
     padding: 0;
 }
 
-#lp {
-    height: 83vh;
+.section {
     width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1545670723-196ed0954986?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+    height: 100vh;
+}
+
+#landingpage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.overlay {
-    height: 83vh;
+    background-position: top;
+    height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-#wave {
-    position: absolute;
-    top: 99%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    z-index: 1;
 }
 
 nav {
-    margin: 0;
-    height: 17vh;
-    color: white;
-    background-color: rgb(20, 20, 20);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
-
-#navtitle {
-    width: 50%;
-}
-
-#navtitle span {
-    color: crimson
-}
-
-#links {
-    width: 50%;
-    font-size: 35px;
-    font-family: "Oswald", sans-serif;
-    text-decoration: none;
-    color: white;
+    height: 20%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
 }
 
-.link {
-    text-decoration: none;
-    color: white;
+.logo {
+    width: 30%;
+}
+
+#logo {
+    height: 20vh;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
 }
 
-.link::after {
+.links a{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    font-size: 3rem;
+    width: min-content;
+    cursor: pointer;
+}
+
+.links a::after{
     content: "";
-    display: block;
+    display: flex;
+    text-align: right;
     background-color: white;
     height: 0.75vh;
-    width: 20%;
-    transition: .4s width ease-in-out;
+    width: 2rem;
+    transition: width .4s ease-in-out;
 }
 
-.link:hover::after {
+.links a:hover::after{
     width: 100%;
-    transition: .4s width ease-in-out;
+    transition: width .4s ease-in-out;
 }
 
-#man {
-    height: 80vh;
+.hamburger {
+    display: none;
+}
+
+#bars {
+    color: white;
+    font-size: 5rem;
+}
+
+.mt {
     position: absolute;
-    top: 60%;
-    left: 75%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 0;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 12rem;
+    text-shadow: -7px 8px rgb(20, 20, 20);
 }
 
-#about {
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+.tagline {
+    width: max-content;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 4rem;
 }
 
-@media (max-width: 900px) {
-    #navtitle {
-        position: absolute;
-        top: 8%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: max-content;
+@media (max-width: 1250px) {
+    .links a {
+        font-size: 2.5rem;
     }
 
-    .link {
+    .mt {
+        font-size: 10rem;
+    }
+
+    .tagline {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .links a {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .links {
         display: none;
     }
-}
 
-@media (max-width: 350px) {
-    #navtitle {
-        font-size: 60px;
-    }
-}
-
-@media (max-height: 500px) {
-    #navtitle {
-        font-size: 60px;
-    }
-}
-
-@media (max-height: 400px) {
-    #navtitle {
-        font-size: 50px;
-    }
-}
-
-@media (max-height: 300px) {
-    nav {
-        height: 25vh;
+    .hamburger {
+        display: initial;
     }
 
-    #navtitle {
-        top: 10%;
-    }
-}
-
-
-
-@media (max-width: 800px) {
-    #man {
-        display: none;
+    .logo {
+        width: 70%;
     }
 }
